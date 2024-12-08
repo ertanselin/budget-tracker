@@ -124,7 +124,6 @@ export default function MainComponent() {
       <div className="flex-1 md:m-10 lg:m-16 max-w-[1400px]">
         {selectMenu === "home" && <Home />}
         {selectMenu === "expenses" && <Expenses />}
-        {selectMenu === "reports" && <Reports />}
         {selectMenu === "incomes" && <Incomes />}
       </div>
     </div>
